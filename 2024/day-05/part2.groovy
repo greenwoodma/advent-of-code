@@ -1,5 +1,3 @@
-import groovy.transform.Memoized
-
 rules = new HashMap<Long,Set<Long>>()
 def manuals = [];
 new File("input.txt").eachLine { line ->
