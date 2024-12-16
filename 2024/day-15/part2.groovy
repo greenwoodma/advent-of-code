@@ -228,7 +228,7 @@ List<Tuple3> mergeDown(List<Tuple3> allMoves) {
 	return moves
 }
 
-@Memoized
+//@Memoized
 List<Tuple3> checkUp(map, X, Y) {
 	List<Tuple3> result = new ArrayList<Tuple3>()
 
@@ -258,7 +258,7 @@ List<Tuple3> checkUp(map, X, Y) {
 	return result;
 }
 
-@Memoized
+//@Memoized
 List<Tuple3> checkDown(map, X, Y) {
 	List<Tuple3> result = new ArrayList<Tuple3>()
 
